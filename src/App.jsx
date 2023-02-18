@@ -1,11 +1,15 @@
-import componente1 from "./components/componente1";
+import React from "react";
+import Componente1 from "./components/componente1";
+import Componente2 from "./components/Componente2";
 
-const App = () => {
+const app = () => {
   return (
-    <div>
-      <componente1 />
-    </div>
-  );
+  <div>
+    <Componente1 />
+    <Componente2 />
+    {1+5}
+  </div>
+  )
 };
 
-export default App;
+export default app;
