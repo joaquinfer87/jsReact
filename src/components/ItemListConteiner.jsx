@@ -3,7 +3,7 @@ import React from 'react'
 function ItemListConteiner({gretting}) {
   return (
     <>
-        <h2>{gretting}</h2>
+        <h2 className='saludo'>{gretting}</h2>
     </>
   )
 }

@@ -68,3 +68,43 @@ button:focus-visible {
   }
 }
 
+.posters{
+  background-color: #8287f1;
+}
+
+.posters hover{
+  background-color:pink;
+}
+
+.stickers{
+  background-color: #8287f1;
+
+}
+
+.stickers hover{
+  background-color:pink;
+}
+
+.indice{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+
+}
+
+.conteiner{
+  width: 100vw;
+}
+
+.carrito{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.saludo{
+  text-align: center;
+}
