@@ -13,6 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+li {
+  list-style-type: none;
+}
 
 a {
   font-weight: 500;
@@ -48,7 +51,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #c24a52;
 }
 button:focus,
 button:focus-visible {
@@ -68,36 +71,38 @@ button:focus-visible {
   }
 }
 
-.posters{
-  background-color: #8287f1;
+.guitarras {
+  background-color: #c82a35;
 }
 
-.posters hover{
-  background-color:pink;
+.bajos {
+  background-color: #c82a35;
 }
 
-.stickers{
-  background-color: #8287f1;
-
+.amplificadores {
+  background-color: #c82a35;
 }
 
-.stickers hover{
-  background-color:pink;
+.carrito button:hover {
+  background-color:  #e23039;
 }
 
-.indice{
+.indice button:hover {
+  background-color: #e23039;
+}
+
+.indice {
   display: flex;
   flex-direction: row;
   gap: 100px;
   justify-content: center;
-
 }
 
-.conteiner{
+.conteiner {
   width: 100vw;
 }
 
-.carrito{
+.carrito {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -105,6 +110,10 @@ button:focus-visible {
   padding: 10px;
 }
 
-.saludo{
+.saludo {
   text-align: center;
+}
+
+.grid {
+  width: 100vw;
 }

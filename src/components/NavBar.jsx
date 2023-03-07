@@ -6,42 +6,25 @@ import { Grid, Box, Img, Button } from "@chakra-ui/react";
 function NavBar() {
   return (
     <div className="conteiner">
-      {/* <Flex minWidth="max-content" alignItems="center" gap="700">
-        <Box p="2">
-          <Img src={stickerLogo} alt="Logo" height="100" />
-        </Box>
-        <Spacer />
-        <ButtonGroup gap="100">
-          <ul className="indice">
-            <li>
-              <button className="stickers">Stickers</button>
-            </li>
-            <li>
-              <button className="posters">Posters</button>
-            </li>
-          </ul>
-          <Button colorScheme="pink">
-            <CartWidget />
-            <span>6</span>
-          </Button>
-        </ButtonGroup>
-      </Flex> */}
-      <Grid templateColumns="repeat(3, 1fr)" gap={6}>
+      <Grid className="grid" templateColumns="repeat(3, 1fr)" gap={6}>
         <Box>
           <Img src={stickerLogo} alt="Logo" height="100" />
         </Box>
         <Box>
           <ul className="indice">
             <li>
-              <button className="stickers">Stickers</button>
+              <button className="guitarras">Guitarras</button>
             </li>
             <li>
-              <button className="posters">Posters</button>
+              <button className="bajos">Bajos</button>
+            </li>
+            <li>
+              <button className="amplificadores">Amplificadores</button>
             </li>
           </ul>
         </Box>
         <Box className="carrito">
-          <Button  colorScheme="pink">
+          <Button  colorScheme="red">
             <CartWidget />
             <span>6</span>
           </Button>
